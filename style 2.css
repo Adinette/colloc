@@ -1,0 +1,69 @@
+/*
+Theme Name: Bootship
+Theme URI: http://intside.com/themes/bootship/
+Author: Intside
+Author URI: http://intside.com/
+Description: Bootship is a startup theme for Advanced user who want to build professional WordPress theme based on Bootstrap
+Version: 0.1
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: blue, black, white, light, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: bootship
+
+This theme is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Basic Structure
+ * 2.0 - Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 1.0 Basic Structure
+ * ----------------------------------------------------------------------------
+ */
+
+
+
+/**
+ * 2.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+/* WordPress Media Queries */
+@media (max-width: 600.98px) {
+}
+@media (min-width: 601px) and (max-width: 782.98px) {
+}
+@media (min-width: 783px) {
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* Small devices (landscape phones, 576px, up to 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px, up to 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px, up to 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* X-Large devices (large desktops, 1200px, up to 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

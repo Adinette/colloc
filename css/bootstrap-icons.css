@@ -1,4 +1,9 @@
 @charset "UTF-8";
+/*!
+ * Bootstrap Icons v1.11.3 (https://icons.getbootstrap.com/)
+ * Copyright 2019-2024 The Bootstrap Authors
+ * Licensed under MIT (https://github.com/twbs/icons/blob/main/LICENSE)
+ */
 @font-face {
   font-display: block;
   font-family: "bootstrap-icons";
@@ -1279,9 +1284,6 @@
 
 .bi-cloud-hail::before {
   content: ""; }
-
-.bi-cloud-haze-1::before {
-  content: ""; }
 
 .bi-cloud-haze-fill::before {
   content: ""; }
@@ -4268,26 +4270,17 @@
 .bi-ear::before {
   content: ""; }
 
-.bi-envelope-check-1::before {
-  content: ""; }
-
 .bi-envelope-check-fill::before {
   content: ""; }
 
 .bi-envelope-check::before {
   content: ""; }
 
-.bi-envelope-dash-1::before {
-  content: ""; }
-
 .bi-envelope-dash-fill::before {
   content: ""; }
 
 .bi-envelope-dash::before {
   content: ""; }
-
-.bi-envelope-exclamation-1::before {
-  content: ""; }
 
 .bi-envelope-exclamation-fill::before {
   content: ""; }
@@ -4301,17 +4294,11 @@
 .bi-envelope-plus::before {
   content: ""; }
 
-.bi-envelope-slash-1::before {
-  content: ""; }
-
 .bi-envelope-slash-fill::before {
   content: ""; }
 
 .bi-envelope-slash::before {
   content: ""; }
-
-.bi-envelope-x-1::before {
-  content: ""; }
 
 .bi-envelope-x-fill::before {
   content: ""; }
@@ -4339,12 +4326,6 @@
 
 .bi-meta::before {
   content: ""; }
-
-.bi-mortorboard-fill::before {
-  content: ""; }
-
-.bi-mortorboard::before {
-  content: ""; }
 
 .bi-nintendo-switch::before {
   content: ""; }
@@ -4400,9 +4381,6 @@
 .bi-send-dash::before {
   content: ""; }
 
-.bi-send-exclamation-1::before {
-  content: ""; }
-
 .bi-send-exclamation-fill::before {
   content: ""; }
 
@@ -4435,9 +4413,6 @@
 
 .bi-steam::before {
   content: ""; }
-
-.bi-terminal-dash-1::before {
-  content: ""; }
 
 .bi-terminal-dash::before {
   content: ""; }
@@ -4526,9 +4501,6 @@
 .bi-boombox-fill::before {
   content: ""; }
 
-.bi-displayport-1::before {
-  content: ""; }
-
 .bi-displayport::before {
   content: ""; }
 
@@ -4564,12 +4536,6 @@
 
 .bi-router::before {
   content: ""; }
-
-.bi-ssd-fill::before {
-  content: ""; }
-
-.bi-ssd::before {
-  content: ""; }
 
 .bi-thunderbolt-fill::before {
   content: ""; }
@@ -4889,9 +4855,6 @@
 .bi-filetype-png::before {
   content: ""; }
 
-.bi-filetype-ppt-1::before {
-  content: ""; }
-
 .bi-filetype-ppt::before {
   content: ""; }
 
@@ -4936,9 +4899,6 @@
 
 .bi-filetype-woff::before {
   content: ""; }
-
-.bi-filetype-xls-1::before {
-  content: ""; }
 
 .bi-filetype-xls::before {
   content: ""; }
@@ -5066,12 +5026,6 @@
 .bi-filetype-xlsx::before {
   content: ""; }
 
-.bi-1-circle-1::before {
-  content: ""; }
-
-.bi-1-circle-fill-1::before {
-  content: ""; }
-
 .bi-1-circle-fill::before {
   content: ""; }
 
@@ -5083,12 +5037,6 @@
 
 .bi-1-square::before {
   content: ""; }
-
-.bi-2-circle-1::before {
-  content: ""; }
-
-.bi-2-circle-fill-1::before {
-  content: ""; }
 
 .bi-2-circle-fill::before {
   content: ""; }
@@ -5102,12 +5050,6 @@
 .bi-2-square::before {
   content: ""; }
 
-.bi-3-circle-1::before {
-  content: ""; }
-
-.bi-3-circle-fill-1::before {
-  content: ""; }
-
 .bi-3-circle-fill::before {
   content: ""; }
 
@@ -5119,12 +5061,6 @@
 
 .bi-3-square::before {
   content: ""; }
-
-.bi-4-circle-1::before {
-  content: ""; }
-
-.bi-4-circle-fill-1::before {
-  content: ""; }
 
 .bi-4-circle-fill::before {
   content: ""; }
@@ -5138,12 +5074,6 @@
 .bi-4-square::before {
   content: ""; }
 
-.bi-5-circle-1::before {
-  content: ""; }
-
-.bi-5-circle-fill-1::before {
-  content: ""; }
-
 .bi-5-circle-fill::before {
   content: ""; }
 
@@ -5155,12 +5085,6 @@
 
 .bi-5-square::before {
   content: ""; }
-
-.bi-6-circle-1::before {
-  content: ""; }
-
-.bi-6-circle-fill-1::before {
-  content: ""; }
 
 .bi-6-circle-fill::before {
   content: ""; }
@@ -5174,12 +5098,6 @@
 .bi-6-square::before {
   content: ""; }
 
-.bi-7-circle-1::before {
-  content: ""; }
-
-.bi-7-circle-fill-1::before {
-  content: ""; }
-
 .bi-7-circle-fill::before {
   content: ""; }
 
@@ -5192,12 +5110,6 @@
 .bi-7-square::before {
   content: ""; }
 
-.bi-8-circle-1::before {
-  content: ""; }
-
-.bi-8-circle-fill-1::before {
-  content: ""; }
-
 .bi-8-circle-fill::before {
   content: ""; }
 
@@ -5209,12 +5121,6 @@
 
 .bi-8-square::before {
   content: ""; }
-
-.bi-9-circle-1::before {
-  content: ""; }
-
-.bi-9-circle-fill-1::before {
-  content: ""; }
 
 .bi-9-circle-fill::before {
   content: ""; }
@@ -5270,12 +5176,6 @@
 .bi-browser-safari::before {
   content: ""; }
 
-.bi-c-circle-1::before {
-  content: ""; }
-
-.bi-c-circle-fill-1::before {
-  content: ""; }
-
 .bi-c-circle-fill::before {
   content: ""; }
 
@@ -5305,12 +5205,6 @@
 
 .bi-cassette::before {
   content: ""; }
-
-.bi-cc-circle-1::before {
-  content: ""; }
-
-.bi-cc-circle-fill-1::before {
-  content: ""; }
 
 .bi-cc-circle-fill::before {
   content: ""; }
@@ -5366,12 +5260,6 @@
 .bi-google-play::before {
   content: ""; }
 
-.bi-h-circle-1::before {
-  content: ""; }
-
-.bi-h-circle-fill-1::before {
-  content: ""; }
-
 .bi-h-circle-fill::before {
   content: ""; }
 
@@ -5396,12 +5284,6 @@
 .bi-microsoft-teams::before {
   content: ""; }
 
-.bi-p-circle-1::before {
-  content: ""; }
-
-.bi-p-circle-fill-1::before {
-  content: ""; }
-
 .bi-p-circle-fill::before {
   content: ""; }
 
@@ -5425,12 +5307,6 @@
 
 .bi-prescription2::before {
   content: ""; }
-
-.bi-r-circle-1::before {
-  content: ""; }
-
-.bi-r-circle-fill-1::before {
-  content: ""; }
 
 .bi-r-circle-fill::before {
   content: ""; }
@@ -6004,3 +5880,294 @@
 
 .bi-wikipedia::before {
   content: ""; }
+
+.bi-alphabet-uppercase::before {
+  content: ""; }
+
+.bi-alphabet::before {
+  content: ""; }
+
+.bi-amazon::before {
+  content: ""; }
+
+.bi-arrows-collapse-vertical::before {
+  content: ""; }
+
+.bi-arrows-expand-vertical::before {
+  content: ""; }
+
+.bi-arrows-vertical::before {
+  content: ""; }
+
+.bi-arrows::before {
+  content: ""; }
+
+.bi-ban-fill::before {
+  content: ""; }
+
+.bi-ban::before {
+  content: ""; }
+
+.bi-bing::before {
+  content: ""; }
+
+.bi-cake::before {
+  content: ""; }
+
+.bi-cake2::before {
+  content: ""; }
+
+.bi-cookie::before {
+  content: ""; }
+
+.bi-copy::before {
+  content: ""; }
+
+.bi-crosshair::before {
+  content: ""; }
+
+.bi-crosshair2::before {
+  content: ""; }
+
+.bi-emoji-astonished-fill::before {
+  content: ""; }
+
+.bi-emoji-astonished::before {
+  content: ""; }
+
+.bi-emoji-grimace-fill::before {
+  content: ""; }
+
+.bi-emoji-grimace::before {
+  content: ""; }
+
+.bi-emoji-grin-fill::before {
+  content: ""; }
+
+.bi-emoji-grin::before {
+  content: ""; }
+
+.bi-emoji-surprise-fill::before {
+  content: ""; }
+
+.bi-emoji-surprise::before {
+  content: ""; }
+
+.bi-emoji-tear-fill::before {
+  content: ""; }
+
+.bi-emoji-tear::before {
+  content: ""; }
+
+.bi-envelope-arrow-down-fill::before {
+  content: ""; }
+
+.bi-envelope-arrow-down::before {
+  content: ""; }
+
+.bi-envelope-arrow-up-fill::before {
+  content: ""; }
+
+.bi-envelope-arrow-up::before {
+  content: ""; }
+
+.bi-feather::before {
+  content: ""; }
+
+.bi-feather2::before {
+  content: ""; }
+
+.bi-floppy-fill::before {
+  content: ""; }
+
+.bi-floppy::before {
+  content: ""; }
+
+.bi-floppy2-fill::before {
+  content: ""; }
+
+.bi-floppy2::before {
+  content: ""; }
+
+.bi-gitlab::before {
+  content: ""; }
+
+.bi-highlighter::before {
+  content: ""; }
+
+.bi-marker-tip::before {
+  content: ""; }
+
+.bi-nvme-fill::before {
+  content: ""; }
+
+.bi-nvme::before {
+  content: ""; }
+
+.bi-opencollective::before {
+  content: ""; }
+
+.bi-pci-card-network::before {
+  content: ""; }
+
+.bi-pci-card-sound::before {
+  content: ""; }
+
+.bi-radar::before {
+  content: ""; }
+
+.bi-send-arrow-down-fill::before {
+  content: ""; }
+
+.bi-send-arrow-down::before {
+  content: ""; }
+
+.bi-send-arrow-up-fill::before {
+  content: ""; }
+
+.bi-send-arrow-up::before {
+  content: ""; }
+
+.bi-sim-slash-fill::before {
+  content: ""; }
+
+.bi-sim-slash::before {
+  content: ""; }
+
+.bi-sourceforge::before {
+  content: ""; }
+
+.bi-substack::before {
+  content: ""; }
+
+.bi-threads-fill::before {
+  content: ""; }
+
+.bi-threads::before {
+  content: ""; }
+
+.bi-transparency::before {
+  content: ""; }
+
+.bi-twitter-x::before {
+  content: ""; }
+
+.bi-type-h4::before {
+  content: ""; }
+
+.bi-type-h5::before {
+  content: ""; }
+
+.bi-type-h6::before {
+  content: ""; }
+
+.bi-backpack-fill::before {
+  content: ""; }
+
+.bi-backpack::before {
+  content: ""; }
+
+.bi-backpack2-fill::before {
+  content: ""; }
+
+.bi-backpack2::before {
+  content: ""; }
+
+.bi-backpack3-fill::before {
+  content: ""; }
+
+.bi-backpack3::before {
+  content: ""; }
+
+.bi-backpack4-fill::before {
+  content: ""; }
+
+.bi-backpack4::before {
+  content: ""; }
+
+.bi-brilliance::before {
+  content: ""; }
+
+.bi-cake-fill::before {
+  content: ""; }
+
+.bi-cake2-fill::before {
+  content: ""; }
+
+.bi-duffle-fill::before {
+  content: ""; }
+
+.bi-duffle::before {
+  content: ""; }
+
+.bi-exposure::before {
+  content: ""; }
+
+.bi-gender-neuter::before {
+  content: ""; }
+
+.bi-highlights::before {
+  content: ""; }
+
+.bi-luggage-fill::before {
+  content: ""; }
+
+.bi-luggage::before {
+  content: ""; }
+
+.bi-mailbox-flag::before {
+  content: ""; }
+
+.bi-mailbox2-flag::before {
+  content: ""; }
+
+.bi-noise-reduction::before {
+  content: ""; }
+
+.bi-passport-fill::before {
+  content: ""; }
+
+.bi-passport::before {
+  content: ""; }
+
+.bi-person-arms-up::before {
+  content: ""; }
+
+.bi-person-raised-hand::before {
+  content: ""; }
+
+.bi-person-standing-dress::before {
+  content: ""; }
+
+.bi-person-standing::before {
+  content: ""; }
+
+.bi-person-walking::before {
+  content: ""; }
+
+.bi-person-wheelchair::before {
+  content: ""; }
+
+.bi-shadows::before {
+  content: ""; }
+
+.bi-suitcase-fill::before {
+  content: ""; }
+
+.bi-suitcase-lg-fill::before {
+  content: ""; }
+
+.bi-suitcase-lg::before {
+  content: ""; }
+
+.bi-suitcase::before {
+  content: "豈"; }
+
+.bi-suitcase2-fill::before {
+  content: "更"; }
+
+.bi-suitcase2::before {
+  content: "車"; }
+
+.bi-vignette::before {
+  content: "賈"; }

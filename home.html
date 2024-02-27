@@ -1,408 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/theme.css">
-    <!-- icons css -->
-    <link rel="stylesheet" href="css/bootstrap-icons.css">
-    <!-- googl font poppins -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <!-- style css -->
-    <link rel="stylesheet" href="index.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-    <title>Home</title>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <!-- icons css -->
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <!-- googl font poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+  <!-- style css -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <title>Home</title>
 </head>
 
 <body>
-    <!-- header -->
-    <header class=" header ">
-        <div class="header-text">
-            <img src="images/card-outline.svg" alt="card-outline">
-
-            Lancement officiel le 7 fev. 2024 - Cliquez pour être informé!
+  <header class="header">
+    <div class="header-text"> <img src="images/card-outline.svg" alt="card-outline"> Lancement officiel le 7 fev. 2024 - Cliquez pour être informé! </div>
+    <nav class="navbar navbar-expand-lg py-3">
+      <div class="container pl-lg-8">
+        <div> <a class="navbar-brand" href="#"> <img src="images/logo-black.svg" alt=""> </a> </div>
+        <button class="navbar-toggler collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item"> <a class="nav-link p-0" href="/reservation.html" role="button" aria-expanded="false">Réserver une voiture</a> </li>
+            <li class="nav-item"> <a class="nav-link p-0" href="/contact.html" role="button" aria-expanded="false">Contact</a> </li>
+          </ul>
         </div>
-        <nav class="navbar navbar-expand-lg py-3">
-            <div class="container pl-lg-8">
+        <div class="navbar-collapse collapse justify-content-end" id="navbarSupportedContent"> <a class=" btn btn-primary text-white" href="#">Se connecter </a> </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row position-relative">
+        <div class="col-md-6 col-lg-6 mt-4 mt-lg-20  text-center mb-3 mb-lg-0">
+          <div class="header-img"> <img src="images/car.svg" alt=""> </div>
+        </div>
+        <div class="col-md-6 col-lg-6 header-block-custom ">
+          <div class="header-form">
+            <div class="form">
+              <h6>Louer la voiture de vos rêves</h6>
+              <form action="" class="p-3">
                 <div>
-                    <a class="navbar-brand" href="#">
-                        <img src="images/logo-black.svg" alt="">
-                    </a>
+                  <label for="">Date de retrait</label>
+                  <input type="date" placeholder="JJ/MM/AAAA" id="date" class="form-control mt-2">
                 </div>
-                <button class="navbar-toggler collapsed shadow-none" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav mt-3 mt-lg-0 ">
-                        <li class="nav-item   ">
-                            <a class="nav-link p-0" href="/reservation.html" role="button" aria-expanded="false">
-                                Réserver une voiture
-                            </a>
-                        </li>
-                        <li class="nav-item py-4 py-lg-0 ml-lg-4">
-                            <a class="nav-link p-0" href="/contact.html" role="button" aria-expanded="false">
-                                Contact
-                            </a>
-                        </li>
+                <div class="my-3">
+                  <label for="">Date de retour</label>
+                  <input type="date" placeholder="JJ/MM/AAAA" id="date" class="form-control mt-2">
+                </div>
+                <div>
+                  <label for=""> Voulez-vous ajouter des options</label>
+                  <select class="form-select mt-2">
+                    <option selected>Non</option>
+                    <option value="1">Oui</option>
+                  </select>
+                </div>
+                <div class="my-4">
+                  <button type="submit" class="btn btn-outline-primary mt-2">Rechercher</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header><!-- header --> 
+
+  <div class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-9 col-md-11 col-lg-10 mx-auto">
+          <div class="row ">
+            <h2 class="text-center mb-8">Pourquoi nous choisir ?</h2>
+            <div class="col-10 col-md-6 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <span class="card-title">
+                    <img src="images/flash.svg" alt="">
+                  </span>
+                  <h4 class="card-subtitle my-3">Voyage économique</h4>
+                  <h5 class="card-text">Voyagez malin avec COLOC SERVICES. Des tarifs compétitifs, une économie qui ne compromet jamais l'aventure.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 col-lg-4 my-3 my-md-0 my-lg-0">
+              <div class="card">
+                <div class="card-body">
+                  <span class="card-title card-title-reserv">
+                    <img src="images/icon-reserv.svg" alt="">
+                  </span>
+                  <h4 class="card-subtitle my-3">Voyage économique</h4>
+                  <h5 class="card-text">Voyagez malin avec COLOC SERVICES. Des tarifs compétitifs, une économie qui ne compromet jamais l'aventure.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 col-lg-4 mt-3 mt-md-3 mt-lg-0">
+              <div class="card">
+                <div class="card-body">
+                  <span class="card-title card-title-divertissment">
+                    <img src="images/icon-divertissment.svg" alt="">
+                  </span>
+                  <h4 class="card-subtitle my-3">Voyage économique</h4>
+                  <h5 class="card-text">Voyagez malin avec COLOC SERVICES. Des tarifs compétitifs, une économie qui ne compromet jamais l'aventure.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 col-lg-4 mt-3">
+              <div class="card">
+                <div class="card-body">
+                  <span class="card-title card-title-secure">
+                    <img src="images/icon-secure.svg" alt="">
+                  </span>
+                  <h4 class="card-subtitle my-3">Voyage économique</h4>
+                  <h5 class="card-text">Voyagez malin avec COLOC SERVICES. Des tarifs compétitifs, une économie qui ne compromet jamais l'aventure.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 col-lg-4 my-3">
+              <div class="card">
+                <div class="card-body">
+                  <span class="card-title card-title-conducteur">
+                    <img src="images/icon-conducteur.svg" alt="">
+                  </span>
+                  <h4 class="card-subtitle my-3">Voyage économique</h4>
+                  <h5 class="card-text">Voyagez malin avec COLOC SERVICES. Des tarifs compétitifs, une économie qui ne compromet jamais l'aventure.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 col-lg-4 my-3">
+              <div class="card">
+                <div class="card-body">
+                  <span class="card-title card-title-vehicle">
+                    <img src="images/icon-voiture.svg" alt="">
+                  </span>
+                  <h4 class="card-subtitle my-3">Voyage économique</h4>
+                  <h5 class="card-text">Voyagez malin avec COLOC SERVICES. Des tarifs compétitifs, une économie qui ne compromet jamais l'aventure.</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- .about -->
+
+  <div class="start">
+    <div class="start-bg-elipse1">
+      <div class="start-bg-elipse2">
+        <div class="container text-white">
+          <div class="row">
+            <div class="col-12 col-md-11 col-lg-10 mx-auto">
+              <div class="text-center">
+                <h2>Embarquez pour l’aventure avec COLOC SERVICES</h2>
+                <span>Prenez du plaisir au volant de nos exceptionnelles voitures.</span> </div>
+              <div class="text-center">
+                <button type="button" class="btn btn-secondary">Louer maintenant</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- .start -->
+
+  <div class="faq faq-home">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-11 col-lg-10 mx-auto">
+          <div class="text-center mb-7">
+            <h2>Foire aux questions</h2>
+          </div>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"> Comment puis-je réserver une voiture sur votre plateforme? </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> Pour réserver une voiture sur notre plateforme, il vous suffit de naviguer sur notre site web ou notre application mobile conviviale. Sélectionnez vos dates, choisissez parmi notre variété de véhicules, personnalisez votre réservation selon vos besoins, puis suivez les étapes simples pour finaliser et confirmer votre location. Une fois cela fait, vous recevrez une confirmation détaillée par e-mail, et vous serez prêt à partir à l'heure convenue. </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"> Quels types de véhicules proposez-vous à la location? </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Pour réserver une voiture sur notre plateforme, il vous suffit de naviguer sur notre site web ou notre application mobile conviviale. Sélectionnez vos dates, choisissez parmi notre variété de véhicules, personnalisez votre réservation selon vos besoins, puis suivez les étapes simples pour finaliser et confirmer votre location. Une fois cela fait, vous recevrez une confirmation détaillée par e-mail, et vous serez prêt à partir à l'heure convenue. </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Quelles sont les options d'assurance disponibles pour ma location ? </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> Pour réserver une voiture sur notre plateforme, il vous suffit de naviguer sur notre site web ou notre application mobile conviviale. Sélectionnez vos dates, choisissez parmi notre variété de véhicules, personnalisez votre réservation selon vos besoins, puis suivez les étapes simples pour finaliser et confirmer votre location. Une fois cela fait, vous recevrez une confirmation détaillée par e-mail, et vous serez prêt à partir à l'heure convenue. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- .faq -->
+
+  <div class="patner mt-10">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-11 col-lg-10 mx-auto">
+          <div class="row">
+            <div class="col-6 col-md-4 col-lg-2"> <img src="images/patner.svg" alt=""> </div>
+            <div class="col-6 col-md-4 col-lg-2"> <img src="images/patner.svg" alt=""> </div>
+            <div class="col-6 col-md-4 col-lg-2 mt-3 mt-md-0 mt-lg-0"> <img src="images/patner.svg" alt=""> </div>
+            <div class="col-6 col-md-4 col-lg-2 mt-3 my-md-3 my-lg-0"> <img src="images/patner.svg" alt=""> </div>
+            <div class="col-6 col-md-4 col-lg-2 my-3 my-md-3 my-lg-0"> <img src="images/patner.svg" alt=""> </div>
+            <div class="col-6 col-md-4 col-lg-2 my-3 my-md-3 my-lg-0"> <img src="images/patner.svg" alt=""> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- .patner --> 
+
+  <div class="footer">
+    <div class="footer-link">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mx-auto">
+            <div class="row">
+              <div class=" col-lg-3 pb-6 pb-lg-0">
+                <div class=" mb-4"><a class="navbar-brand" href="#"><img src="images/logo-white.svg" alt=""></a> </div>
+                <span>Lorem ipsum dolor sit amet consectetur. Nam vitae odio facilisi ut eget nisi. </span> </div>
+              <div class="col-lg-9">
+                <div class="row">
+                  <div class=" col-6 col-md-4 col-lg-2 mb-6 mb-lg-0 ">
+                    <h6 class="mb-5 ">L’entreprise</h6>
+                    <ul>
+                      <li>Accueil</li>
+                      <li class="my-4">A propos</li>
+                      <li>Reservation</li>
                     </ul>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2 mb-6 mb-lg-0 ">
+                    <h6 class=" mb-5">Liens utiles</h6>
+                    <ul>
+                      <li>Ressources</li>
+                      <li class="my-4">Contact</li>
+                      <li>FAQ</li>
+                    </ul>
+                  </div>
+                  <div class=" col-6 col-md-4 col-lg-3 ">
+                    <h6 class=" mb-5">Adresse</h6>
+                    <ul>
+                      <li class="my-4">contact@coloc.com</li>
+                      <li>Cotonou, Agontikon</li>
+                      <li class="my-4">(229) 92929292</li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-5 mb-6 mb-lg-0">
+                    <h6 class="mb-5 ">Newsletter</h6>
+                    <form action="" class="d-flex">
+                      <input type="email" placeholder="Adresse e-mail" id="" class="form-control rounded-0 bg-transparent">
+                      <button type="submit" class="btn btn-secondary mt-0 rounded-0">Envoyer</button>
+                    </form>
+                  </div>
                 </div>
-                <div class="navbar-collapse collapse justify-content-end" id="navbarSupportedContent">
-                    <a class=" btn btn-primary text-white" href="#">Se connecter </a>
-                </div>
-
+              </div>
             </div>
-        </nav>
-
-        <div class="container-fluid">
-            <div class="row position-relative">
-                <div class="col-md-6 col-lg-6 mt-4 mt-lg-20  text-center mb-3 mb-lg-0">
-                    <div class="header-img">
-                        <img src="images/car.svg" alt="">
-
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 header-block-custom ">
-                    <div class="header-form">
-                        <div class="form">
-                            <h6>Louer la voiture de vos rêves</h6>
-                            <form action="" class="p-3">
-                                <div>
-                                    <label for=""> Date de retrait</label>
-                                    <input type="date" placeholder="JJ/MM/AAAA" id="date" class="form-control mt-2">
-                                </div>
-                                <div class="my-3">
-                                    <label for=""> Date de retour</label>
-                                    <input type="date" placeholder="JJ/MM/AAAA" id="date" class="form-control mt-2">
-                                </div>
-                                <div>
-                                    <label for=""> Voulez-vous ajouter des options</label>
-                                    <select class="form-select mt-2">
-                                        <option selected>Non</option>
-                                        <option value="1">Oui</option>
-                                    </select>
-                                </div>
-                                <div class="my-4">
-                                    <button type="submit" class="btn btn-outline-primary mt-2">Rechercher</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </header>
-    <!-- .header -->
-    <!-- about -->
-    <div class="about ">
-        <div class="container">
-            <div class="row">
-                <div class="col-9 col-md-11 col-lg-10 mx-auto">
-                    <div class="row ">
-                        <h2 class="text-center mb-8">Pourquoi nous choisir ? </h2>
-                        <div class="col-10 col-md-6 col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="card-title">
-                                        <img src="images/flash.svg" alt="">
-                                    </span>
-                                    <h4 class="card-subtitle my-3 ">Voyage économique</h4>
-                                    <h5 class="card-text">Voyagez malin avec COLOC SERVICES. Des tarifs compétitifs, une
-                                        économie qui ne compromet jamais l'aventure.</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-10 col-md-6 col-lg-4  my-3 my-md-0 my-lg-0">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="card-title card-title-reserv">
-                                        <img src="images/icon-reserv.svg" alt="">
-                                    </span>
-                                    <h4 class="card-subtitle my-3 ">Voyage économique</h4>
-                                    <h5 class="card-text">Voyagez malin avec COLOC SERVICES. Des tarifs compétitifs,une
-                                        économie
-                                        qui ne compromet jamais l'aventure.</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-10 col-md-6 col-lg-4 mt-3 mt-md-3 mt-lg-0">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="card-title card-title-divertissment">
-                                        <img src="images/icon-divertissment.svg" alt="">
-                                    </span>
-                                    <h4 class="card-subtitle my-3 ">Voyage économique</h4>
-                                    <h5 class="card-text">Voyagez malin avec COLOC SERVICES. Des tarifs compétitifs, une
-                                        économie qui ne compromet jamais l'aventure.</h5>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-10 col-md-6 col-lg-4  mt-3 ">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="card-title card-title-secure">
-                                        <img src="images/icon-secure.svg" alt="">
-                                    </span>
-                                    <h4 class="card-subtitle my-3 ">Voyage économique</h4>
-                                    <h5 class="card-text">Voyagez malin avec COLOC SERVICES. Des tarifs compétitifs, une
-                                        économie qui ne compromet jamais l'aventure.</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-10 col-md-6 col-lg-4  my-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="card-title card-title-conducteur">
-                                        <img src="images/icon-conducteur.svg" alt="">
-                                    </span>
-                                    <h4 class="card-subtitle my-3 ">Voyage économique</h4>
-                                    <h5 class="card-text">Voyagez malin avec COLOC SERVICES. Des tarifs compétitifs,une
-                                        économie
-                                        qui ne compromet jamais l'aventure.</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-10 col-md-6 col-lg-4 my-3 ">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="card-title card-title-vehicle">
-                                        <img src="images/icon-voiture.svg" alt="">
-                                    </span>
-                                    <h4 class="card-subtitle my-3 ">Voyage économique</h4>
-                                    <h5 class="card-text">Voyagez malin avec COLOC SERVICES. Des tarifs compétitifs, une
-                                        économie qui ne compromet jamais l'aventure.</h5>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-    <!-- about -->
-    <!-- start -->
-    <div class="start ">
-        <div class="start-bg-elipse1">
-            <div class="start-bg-elipse2">
-                <div class="container text-white">
-                    <div class="row">
-                        <div class="col-12 col-md-11 col-lg-10 mx-auto">
-                            <div class="text-center">
-                                <h2>Embarquez pour l’aventure avec COLOC SERVICES</h2>
-                                <span>Prenez du plaisir au volant de nos exceptionnelles voitures.</span>
-                            </div>
-                            <div class="text-center">
-                                <button type="button" class="btn btn-secondary">Louer maintenant</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="copyright">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-12">
+            <div class=" text-center"><span>&copy; 2023 COLOC SERVICES. Tous droits réservés.</span></div>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- start -->
-    <!-- faq -->
-    <div class="faq faq-home">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-11 col-lg-10 mx-auto">
-                    <div class="text-center mb-7">
-                        <h2>Foire aux questions</h2>
-                    </div>
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                    aria-controls="flush-collapseOne">
-                                    Comment puis-je réserver une voiture sur votre plateforme?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    Pour réserver une voiture sur notre plateforme, il vous suffit de naviguer sur
-                                    notre site web ou notre
-                                    application mobile conviviale. Sélectionnez vos dates, choisissez parmi notre
-                                    variété de véhicules,
-                                    personnalisez votre réservation selon vos besoins, puis suivez les étapes
-                                    simples pour finaliser et
-                                    confirmer votre location. Une fois cela fait, vous recevrez une confirmation
-                                    détaillée par e-mail,
-                                    et vous serez prêt à partir à l'heure convenue.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                    aria-controls="flush-collapseTwo">
+  </div><!-- .footer -->
 
-                                    Quels types de véhicules proposez-vous à la location?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    Pour réserver une voiture sur notre plateforme, il vous suffit de naviguer sur
-                                    notre site web ou notre
-                                    application mobile conviviale. Sélectionnez vos dates, choisissez parmi notre
-                                    variété de véhicules,
-                                    personnalisez votre réservation selon vos besoins, puis suivez les étapes
-                                    simples pour finaliser et
-                                    confirmer votre location. Une fois cela fait, vous recevrez une confirmation
-                                    détaillée par e-mail,
-                                    et vous serez prêt à partir à l'heure convenue.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                    aria-controls="flush-collapseThree">
-                                    Quelles sont les options d'assurance disponibles pour ma location?
-                                </button>
-                            </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    Pour réserver une voiture sur notre plateforme, il vous suffit de naviguer sur
-                                    notre site web ou notre
-                                    application mobile conviviale. Sélectionnez vos dates, choisissez parmi notre
-                                    variété de véhicules,
-                                    personnalisez votre réservation selon vos besoins, puis suivez les étapes
-                                    simples pour finaliser et
-                                    confirmer votre location. Une fois cela fait, vous recevrez une confirmation
-                                    détaillée par e-mail,
-                                    et vous serez prêt à partir à l'heure convenue.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- faq -->
-    <!-- patner -->
-    <div class="patner mt-10">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-11 col-lg-10 mx-auto">
-                    <div class="row">
-                        <div class="col-6 col-md-4 col-lg-2">
-                            <img src="images/patner.svg" alt="">
-                        </div>
-                        <div class="col-6 col-md-4 col-lg-2">
-                            <img src="images/patner.svg" alt="">
-
-                        </div>
-                        <div class="col-6 col-md-4 col-lg-2 mt-3 mt-md-0 mt-lg-0">
-                            <img src="images/patner.svg" alt="">
-
-                        </div>
-                        <div class="col-6 col-md-4 col-lg-2 mt-3 my-md-3 my-lg-0">
-                            <img src="images/patner.svg" alt="">
-
-                        </div>
-                        <div class="col-6 col-md-4 col-lg-2 my-3 my-md-3 my-lg-0">
-                            <img src="images/patner.svg" alt="">
-
-                        </div>
-                        <div class="col-6 col-md-4 col-lg-2 my-3 my-md-3 my-lg-0">
-                            <img src="images/patner.svg" alt="">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- patner -->
-    <!-- footer -->
-    <div class="footer ">
-        <div class="footer-link">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-12 mx-auto">
-                        <div class="row">
-                            <div class=" col-lg-3 pb-6 pb-lg-0">
-                                <div class=" mb-4"><a class="navbar-brand" href="#"><img src="images/logo-white.svg"
-                                            alt=""></a>
-                                </div>
-                                <span>Lorem ipsum dolor sit amet consectetur. Nam vitae odio facilisi ut eget nisi.
-                                </span>
-                            </div>
-                            <div class="col-lg-9 ">
-                                <div class="row">
-                                    <div class=" col-6 col-md-4 col-lg-2 mb-6 mb-lg-0 ">
-                                        <h6 class="mb-5 ">L’entreprise</h6>
-                                        <ul>
-                                            <li>Accueil</li>
-                                            <li class="my-4">A propos</li>
-                                            <li>Reservation</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6 col-md-4 col-lg-2 mb-6 mb-lg-0 ">
-                                        <h6 class=" mb-5">Liens utiles</h6>
-                                        <ul>
-                                            <li>Ressources</li>
-                                            <li class="my-4">Contact</li>
-                                            <li>FAQ</li>
-                                        </ul>
-                                    </div>
-                                    <div class=" col-6 col-md-4 col-lg-3 ">
-                                        <h6 class=" mb-5">Adresse</h6>
-                                        <ul>
-                                            <li class="my-4">contact@coloc.com</li>
-                                            <li>Cotonou, Agontikon</li>
-                                            <li class="my-4">(229) 92929292</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6 col-md-4 col-lg-5 mb-6 mb-lg-0">
-                                        <h6 class="mb-5 ">Newsletter</h6>
-                                        <form action="" class="d-flex">
-                                            <input type="email" placeholder="Adresse e-mail" id=""
-                                                class="form-control rounded-0 bg-transparent">
-                                            <button type="submit"
-                                                class="btn btn-secondary mt-0 rounded-0 ">Envoyer</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            <div class="container py-3  ">
-                <div class="row">
-                    <div class="col-12">
-                        <div class=" text-center">
-                            <span>© 2023 COLOC SERVICES. Tout droits réservés.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- footer -->
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.js"></script> 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
-
 </html>
