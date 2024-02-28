@@ -262,7 +262,6 @@ input[type="number"] {
   right: 0;
   z-index: -1;
   top: 56px;
-  width: 75%;
 }
 
 .header-form {
@@ -590,8 +589,8 @@ input[type="number"] {
     right: 0;
     z-index: -1;
     top: 2rem;
-    width: 50%;
   }
+
   .about {
     margin-bottom: 6rem;
     margin-top: 15rem!important;
@@ -611,7 +610,6 @@ input[type="number"] {
     right: 0;
     z-index: -1;
     top: 32px;
-    width: 75%;
   }
  
 }
