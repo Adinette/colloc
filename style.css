@@ -204,6 +204,12 @@ input[type="number"] {
   color: #919191;
 }
 
+.form-control,
+.form-select
+{
+  margin-top: 0.5rem;
+}
+
 .form-check-input {
   background-color: transparent;
 }
@@ -256,24 +262,37 @@ input[type="number"] {
   text-align: center;
   font-size: 1rem;
 }
-
-.header-block-custom {
-  position: absolute;
-  right: 0;
-  z-index: -1;
-  top: 56px;
+.header-block-custom{
+  display: flex;
+  padding-right: 0;
 }
+
+.header-block-custom::before {
+  content: "";
+  width: 50%; 
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  background-image: url(images/bg-header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .header-block-custom::after {
+  content: "";
+  width: 50%; 
+  height: 100%;
+  position: absolute;
+  background-color: #0b0a12;
+} */
 
 .header-form {
   background-color: var(--color-secondary);
   border-radius: 12px;
   max-width: 370px;
-  right: 0;
-  position: absolute;
   padding: 1rem;
-  margin: 2rem 0;
+  margin: 2rem 0 0 auto;
 }
-
 .header-form .form h6 {
   font-weight: 800;
   padding-bottom: 1rem;
@@ -293,7 +312,8 @@ input[type="number"] {
 
 /* about */
 .about{
-  margin-top: 40rem;
+  margin-top: 15rem;
+  margin-bottom: 6rem;
 }
 
 .about .row {
@@ -349,6 +369,9 @@ input[type="number"] {
   font-size: 1.15rem;
   line-height: 1.5;
   font-weight: 400;
+}
+.about .card .card-subtitle {
+  margin: 1rem 0;
 }
 
 /* start */
@@ -427,37 +450,9 @@ input[type="number"] {
   margin-bottom: 0.5rem;
 }
 
-/* patner */
-
-/* footer */
-
-.footer {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
-  margin-top: 6rem;
-  padding-top: 2rem;
-}
-
-.footer-link {
-  border-bottom: 1px solid var(--color-secondary);
-}
-
-.footer h6 {
-  font-weight: 700;
-}
-.footer .footer-link .btn-secondary {
-  border: none;
-  padding-bottom: 0.56rem !important;
-
-}
-.footer span {
-  font-size: 0.895rem;
-}
-
 /* reservation */
 .reservation {
-  margin-top: 6rem;
-  margin-bottom: 20rem;
+  margin: 6rem 0;
 }
 
 .reservation .reservation-title {
@@ -505,24 +500,26 @@ input[type="number"] {
 }
 
 /* contact */
-
-
 .contact {
-  margin-top: 4.5rem;
-  margin-bottom: 20rem;
+  margin: 6rem 0;
 }
 .contact span{
   font-size: 0.875rem;
   color: #a2a9b0;
 }
 
+.contact .contact-text h2{
+  margin-bottom: 3.5rem;
+}
+
+.contact form{
+  margin-top: 2.5rem;
+}
 
 /* register */
 .register {
-  margin-top: 4.5rem;
-  margin-bottom: 18rem;
+  margin: 6rem 0;
 }
-
 
 .register .register-block {
   background-color: var(--color-secondary);
@@ -540,16 +537,49 @@ input[type="number"] {
   font-size: 0.875rem;
 }
 
-/*  */
-@media (min-width: 420px) and (max-width:575.98px) {
+/* footer */
 
+.footer {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  margin-top: 6rem;
+  padding-top: 2rem;
 }
+
+.footer-link {
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+.footer .footer-link .form-control {
+  border-radius: 0;
+  background-color: transparent;
+  margin-top: 0;
+}
+
+.footer .footer-link .btn-secondary {
+  margin-top: 0;
+  border-radius: 0;
+}
+
+.footer h6 {
+  font-weight: 700;
+}
+
+.footer .footer-link .btn-secondary {
+  border: none;
+  padding-bottom: 0.56rem !important;
+}
+
+.footer span {
+  font-size: 0.895rem;
+}
+
+/*  */
+@media (min-width: 420px) and (max-width:575.98px) {}
 
 /* Small devices (landscape phones, 576px, up to 768px) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
-
-}
 @media (min-width: 992px) {
   h2 {
     font-size: 3rem;
@@ -584,17 +614,6 @@ input[type="number"] {
   .header-img img{
     display: block;
   }
-  .header-block-custom {
-    position: absolute;
-    right: 0;
-    z-index: -1;
-    top: 2rem;
-  }
-
-  .about {
-    margin-bottom: 6rem;
-    margin-top: 15rem!important;
-  }
 }
 
 /* Small devices (landscape phones, 576px, up to 768px) */
@@ -605,26 +624,13 @@ input[type="number"] {
   .navbar-nav {
     margin-left: 0rem;
   }
-  .header-block-custom {
-    position: absolute;
-    right: 0;
-    z-index: -1;
-    top: 32px;
-  }
- 
 }
 
 /* Large devices (desktops, 992px, up to 1200px) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
-}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /* X-Large devices (large desktops, 1200px, up to 1400px) */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-
-}
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-
-}
+@media (min-width: 1400px) {}

@@ -23,11 +23,9 @@
 </head>
 
 <body>
-    <!-- header -->
-    <header class=" header ">
+    <header class="header">
         <div class="header-text">
             <img src="images/card-outline.svg" alt="card-outline">
-
             Lancement officiel le 7 fev. 2024 - Cliquez pour être informé!
         </div>
         <nav class="navbar navbar-expand-lg py-3 bg-white shadow">
@@ -42,64 +40,28 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav mt-3 mt-lg-0 ">
-                        <li class="nav-item   ">
-                            <a class="nav-link p-0" href="/reservation.html" role="button" aria-expanded="false">
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/reservation.html" role="button" aria-expanded="false">
                                 Réserver une voiture
                             </a>
                         </li>
-                        <li class="nav-item py-4 py-lg-0 ml-lg-4">
-                            <a class="nav-link p-0" href="/contact.html" role="button" aria-expanded="false">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-contact" href="/contact.html" role="button"
+                                aria-expanded="false">
                                 Contact
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="navbar-collapse collapse justify-content-end" id="navbarSupportedContent">
+                <div class="navbar-collapse-btn">
                     <a class=" btn btn-primary bg-white text-black" href="#">Se connecter </a>
                 </div>
-
             </div>
         </nav>
-
-        <!-- <div class="container mr-0">
-            <div class="row position-relative">
-                <div class="col-lg-6 mt-16">
-                    <img src="images/car.svg" alt="">
-                </div>
-                <div class="col-12 col-lg-6 header-block-custom ">
-                    <div class="header-form">
-                        <div class="form">
-                            <h6>Louer la voiture de vos rêves</h6>
-                            <form action="" class="p-3">
-                                <div>
-                                    <label for=""> Date de retrait</label>
-                                    <input type="date" placeholder="JJ/MM/AAAA" id="date" class="form-control mt-2">
-                                </div>
-                                <div class="my-3">
-                                    <label for=""> Date de retour</label>
-                                    <input type="date" placeholder="JJ/MM/AAAA" id="date" class="form-control mt-2">
-                                </div>
-                                <div>
-                                    <label for=""> Voulez-vous ajouter des options</label>
-                                    <select class="form-select mt-2">
-                                        <option selected>Non</option>
-                                        <option value="1">Oui</option>
-                                    </select>
-                                </div>
-                                <div class="my-4">
-                                    <button type="submit" class="btn btn-outline-primary mt-2">Rechercher</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    </header>
-    <!-- .header -->
-    <!-- faq -->
+    </header><!-- .header -->
+    
     <div class="faq mb-21">
         <div class="container">
             <div class="row">
@@ -116,7 +78,8 @@
                                     Comment puis-je réserver une voiture sur votre plateforme?
                                 </button>
                             </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     Pour réserver une voiture sur notre plateforme, il vous suffit de naviguer sur
                                     notre site web ou notre
@@ -139,7 +102,8 @@
                                     Quels types de véhicules proposez-vous à la location?
                                 </button>
                             </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     Pour réserver une voiture sur notre plateforme, il vous suffit de naviguer sur
                                     notre site web ou notre
@@ -161,7 +125,8 @@
                                     Quelles sont les options d'assurance disponibles pour ma location?
                                 </button>
                             </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     Pour réserver une voiture sur notre plateforme, il vous suffit de naviguer sur
                                     notre site web ou notre
@@ -179,51 +144,57 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- faq -->
-    <!-- footer -->
-    <div class="footer ">
+    </div><!-- .faq -->
+
+    <div class="footer">
         <div class="footer-link">
-            <div class="container ">
+            <div class="container">
                 <div class="row">
-                    <div class=" col-lg-3 pb-6 pb-lg-0">
-                        <div class=" mb-4"><a class="navbar-brand" href="#"><img src="images/logo-white.svg" alt=""></a>
-                        </div>
-                        <span>Lorem ipsum dolor sit amet consectetur. Nam vitae odio facilisi ut eget nisi. </span>
-                    </div>
-                    <div class="col-lg-9 ">
+                    <div class="col-12 mx-auto">
                         <div class="row">
-                            <div class=" col-6 col-md-4 col-lg-2 mb-6 mb-lg-0 ">
-                                <h6 class="mb-5 ">L’entreprise</h6>
-                                <ul>
-                                    <li>Accueil</li>
-                                    <li class="my-4">A propos</li>
-                                    <li>Reservation</li>
-                                </ul>
+                            <div class=" col-lg-3 pb-6 pb-lg-0">
+                                <div class="mb-4">
+                                    <a class="navbar-brand" href="#">
+                                        <img src="images/logo-white.svg" alt="">
+                                    </a>
+                                </div>
+                                <span>Lorem ipsum dolor sit amet consectetur. Nam vitae odio facilisi ut eget nisi.
+                                </span>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-2 mb-6 mb-lg-0 ">
-                                <h6 class=" mb-5">Liens utiles</h6>
-                                <ul>
-                                    <li>Ressources</li>
-                                    <li class="my-4">Contact</li>
-                                    <li>FAQ</li>
-                                </ul>
-                            </div>
-                            <div class=" col-6 col-md-4 col-lg-3 ">
-                                <h6 class=" mb-5">Adresse</h6>
-                                <ul>
-                                    <li class="my-4">contact@coloc.com</li>
-                                    <li>Cotonou, Agontikon</li>
-                                    <li class="my-4">(229) 92929292</li>
-                                </ul>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-5">
-                                <h6 class="mb-5 ">Newsletter</h6>
-                                <form action="" class="d-flex">
-                                    <input type="email" placeholder="Adresse e-mail" id=""
-                                        class="form-control rounded-0 bg-transparent">
-                                    <button type="submit" class="btn btn-secondary mt-0 rounded-0 ">Envoyer</button>
-                                </form>
+                            <div class="col-lg-9">
+                                <div class="row">
+                                    <div class="col-6 col-md-4 col-lg-2 mb-6 mb-lg-0">
+                                        <h6 class="mb-5">L’entreprise</h6>
+                                        <ul>
+                                            <li>Accueil</li>
+                                            <li class="my-4">A propos</li>
+                                            <li>Reservation</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-2 mb-6 mb-lg-0">
+                                        <h6 class="mb-5">Liens utiles</h6>
+                                        <ul>
+                                            <li>Ressources</li>
+                                            <li class="my-4">Contact</li>
+                                            <li>FAQ</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <h6 class="mb-5">Adresse</h6>
+                                        <ul>
+                                            <li class="my-4">contact@coloc.com</li>
+                                            <li>Cotonou, Agontikon</li>
+                                            <li class="my-4">(229) 92929292</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-5 mb-6 mb-lg-0">
+                                        <h6 class="mb-5 ">Newsletter</h6>
+                                        <form action="" class="d-flex">
+                                            <input type="email" placeholder="Adresse e-mail" id="" class="form-control">
+                                            <button type="submit" class="btn btn-secondary">Envoyer</button>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -231,18 +202,15 @@
             </div>
         </div>
         <div class="copyright">
-            <div class="container py-3  ">
+            <div class="container py-3">
                 <div class="row">
                     <div class="col-12">
-                        <div class=" text-center">
-                            <span>© 2023 COLOC SERVICES. Tout droits réservés.</span>
-                        </div>
+                        <div class=" text-center"><span>&copy; 2023 COLOC SERVICES. Tous droits réservés.</span></div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- footer -->
+    </div><!-- .footer -->
     <script src="js/bootstrap.bundle.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>

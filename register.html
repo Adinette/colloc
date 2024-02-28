@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/theme.css">
@@ -18,16 +17,13 @@
     <!-- style css -->
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-    <title>Home</title>
+    <title>Register</title>
 </head>
 
 <body>
-    <!-- header -->
     <header class=" header ">
         <div class="header-text">
             <img src="images/card-outline.svg" alt="card-outline">
-
             Lancement officiel le 7 fev. 2024 - Cliquez pour être informé!
         </div>
         <nav class="navbar navbar-expand-lg py-3 bg-white shadow">
@@ -42,64 +38,28 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav mt-3 mt-lg-0 ">
-                        <li class="nav-item   ">
-                            <a class="nav-link p-0" href="/reservation.html" role="button" aria-expanded="false">
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/reservation.html" role="button" aria-expanded="false">
                                 Réserver une voiture
                             </a>
                         </li>
-                        <li class="nav-item py-4 py-lg-0 ml-lg-4">
-                            <a class="nav-link p-0" href="/contact.html" role="button" aria-expanded="false">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-contact" href="/contact.html" role="button"
+                                aria-expanded="false">
                                 Contact
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="navbar-collapse collapse justify-content-end" id="navbarSupportedContent">
+                <div class="navbar-collapse-btn">
                     <a class=" btn btn-primary bg-white text-black" href="#">Se connecter </a>
                 </div>
-
             </div>
         </nav>
+    </header> <!-- header -->
 
-        <!-- <div class="container mr-0">
-            <div class="row position-relative">
-                <div class="col-lg-6 mt-16">
-                    <img src="images/car.svg" alt="">
-                </div>
-                <div class="col-12 col-lg-6 header-block-custom ">
-                    <div class="header-form">
-                        <div class="form">
-                            <h6>Louer la voiture de vos rêves</h6>
-                            <form action="" class="p-3">
-                                <div>
-                                    <label for=""> Date de retrait</label>
-                                    <input type="date" placeholder="JJ/MM/AAAA" id="date" class="form-control mt-2">
-                                </div>
-                                <div class="my-3">
-                                    <label for=""> Date de retour</label>
-                                    <input type="date" placeholder="JJ/MM/AAAA" id="date" class="form-control mt-2">
-                                </div>
-                                <div>
-                                    <label for=""> Voulez-vous ajouter des options</label>
-                                    <select class="form-select mt-2">
-                                        <option selected>Non</option>
-                                        <option value="1">Oui</option>
-                                    </select>
-                                </div>
-                                <div class="my-4">
-                                    <button type="submit" class="btn btn-outline-primary mt-2">Rechercher</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    </header>
-    <!-- .header -->
-    <!-- register -->
     <div class="register ">
         <div class="container">
             <div class="row">
@@ -107,8 +67,8 @@
                     <div class="register-block">
                         <div class="text-center mb-3">
                             <h2 class="">S’inscrire </h2>
-                        <span class="">Lorem ipsum dolor sit amet consectetur diam nequeh.</span>
-                        
+                            <span class="">Lorem ipsum dolor sit amet consectetur diam nequeh.</span>
+
                         </div>
                         <form action="">
                             <div class="">
@@ -128,7 +88,7 @@
                                 <div class="d-flex align-items-center my-3">
                                     <label class="">
                                         <input class="form-check-input me-1" id="checkbox" type="checkbox">
-                                        J’accepte les conditions d’utilisations  de Coloc Services.
+                                        J’accepte les conditions d’utilisations de Coloc Services.
                                     </label>
                                 </div>
                                 <div class="">
@@ -140,8 +100,7 @@
 
                                 </div>
                                 <div class=" d-flex">
-                                    <a type="submit" href="/facture.html"
-                                        class="btn btn-secondary mt-3 w-100 ">
+                                    <a type="submit" href="/facture.html" class="btn btn-secondary mt-3 w-100 ">
                                         <img src="images/icon-google.svg" alt="">
                                         S’inscrire avec google
                                     </a>
@@ -157,15 +116,17 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- register -->
-    <!-- footer -->
+    </div> <!-- .register -->
+
     <div class="footer ">
         <div class="footer-link">
             <div class="container ">
                 <div class="row">
                     <div class=" col-lg-3 pb-6 pb-lg-0">
-                        <div class=" mb-4"><a class="navbar-brand" href="#"><img src="images/logo-white.svg" alt=""></a>
+                        <div class=" mb-4">
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo-white.svg" alt="">
+                            </a>
                         </div>
                         <span>Lorem ipsum dolor sit amet consectetur. Nam vitae odio facilisi ut eget nisi. </span>
                     </div>
@@ -198,8 +159,7 @@
                             <div class="col-6 col-md-4 col-lg-5 mb-6 mb-lg-0">
                                 <h6 class="mb-5 ">Newsletter</h6>
                                 <form action="" class="d-flex">
-                                    <input type="email" placeholder="Adresse e-mail" id=""
-                                        class="form-control rounded-0 bg-transparent">
+                                    <input type="email" placeholder="Adresse e-mail" id="" class="form-control rounded-0 bg-transparent">
                                     <button type="submit" class="btn btn-secondary mt-0 rounded-0 ">Envoyer</button>
                                 </form>
                             </div>
@@ -219,8 +179,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- footer -->
+    </div><!-- .footer -->
     <script src="js/bootstrap.bundle.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
