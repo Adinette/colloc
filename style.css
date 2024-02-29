@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
@@ -77,7 +77,7 @@ ul {
 
 label {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 input[type="number"] {
@@ -284,16 +284,22 @@ input[type="number"] {
   background-color: var(--color-secondary);
   border-radius: 12px;
   min-width: 366px;
-  margin: 1rem 0 1rem auto;
+  margin: 1.5rem 0 1rem auto;
+}
+
+.header-form form {
+  padding: 1.5rem 2rem 2rem 2rem;
 }
 
 .header-form h6 {
   width: 100%;
+  font-size: 1.25rem;
   font-weight: 700;
   border-bottom: 1px solid #DFDFE3;
   padding: 2rem;
   text-align: center;
   color: var(--color-primary);
+  margin-bottom: 0;
 }
 
 .header-form .form .btn-outline-primary {
@@ -369,17 +375,16 @@ input[type="number"] {
 
 /* start */
 .start {
-  margin-top: 6rem;
   background-color: #1b2223;
   background-image: url(images/start-group.svg);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: top left;
 }
 
 .start .start-bg-elipse1 {
   background-image: url(images/start-ellipse.svg);
   background-repeat: no-repeat;
-  background-position: right 99.2%;
+  background-position: right;
   background-size: contain;
 }
 
@@ -387,13 +392,12 @@ input[type="number"] {
   padding: 3.75rem 0;
   background-image: url(images/start-ellipse1.svg);
   background-repeat: no-repeat;
-  background-position: right 106%;
+  background-position: right;
   margin-top: 2rem;
 }
 
 .start h2 {
   font-size: 2.15rem;
-
 }
 
 .start h6{
@@ -564,10 +568,10 @@ input[type="number"] {
 /* footer */
 
 .footer {
-  background-color: var(--color-primary);
+  background-color: #000;
   color: #f4f4f4;
   margin-top: 6rem;
-  padding: 2rem 0;
+  padding: 2rem 0 1rem 0;
 }
 
 .footer-link {
@@ -606,7 +610,7 @@ input[type="number"] {
 }
 
 .footer .copyright .container {
-  padding-bottom: 0;
+  padding: 1rem 0 0 0;
 }
 
 @media (max-width:575.98px) {}
@@ -629,7 +633,6 @@ input[type="number"] {
   .navbar-nav {
     margin-left: 0rem;
   }
-
   .header-block-custom::before {
     content: "";
     width: 50%;
@@ -654,7 +657,7 @@ input[type="number"] {
   }
 
   .header-form {
-    margin: 2rem 0 3rem auto;
+    margin: 1.5rem 0 3rem auto;
   }
 
   .header-block-custom {
@@ -667,7 +670,7 @@ input[type="number"] {
     right: 55%;
     top: 7rem;
 }
-  
+
 }
 
 @media (min-width: 992px) {
@@ -676,8 +679,12 @@ input[type="number"] {
     font-weight: 700;
   }
 
-  .navbar-collapse {
-    margin-left: 8rem;
+  .navbar-nav .nav-item {
+    margin-left: 1.5rem;
+  }
+
+  .navbar-nav .nav-item-reservation {
+    margin-left: 9rem;
   }
 
   .navbar .nav-link-contact {
@@ -725,13 +732,8 @@ input[type="number"] {
   }
 
   .header-form {
-    margin: 2rem 0 3rem auto!important;
+    margin: 1.5rem 0 3rem auto!important;
   }
-
-  .about{
-    margin-top: 8rem;
-  }
-
 }
 
 /* Large devices (desktops, 992px, up to 1200px) */
@@ -741,4 +743,8 @@ input[type="number"] {
 @media (min-width: 1200px) and (max-width: 1399.98px) {}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+  .footer span {
+    font-size: 1.15rem;
+  }
+}
