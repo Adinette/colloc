@@ -62,7 +62,7 @@ h5 {
 }
 
 p {
-  font-size: 0.5rem;
+  font-size: 1.25rem;
   margin-bottom: 0rem;
 }
 
@@ -77,6 +77,7 @@ ul {
 
 label {
   font-weight: 600;
+  font-size: 1rem;
 }
 
 input[type="number"] {
@@ -98,7 +99,7 @@ input[type="number"] {
 .btn-secondary {
   font-size: 1rem;
   text-align: center;
-  padding: 0.75rem 1rem;
+  padding: 0.45rem 0.95rem;
   font-weight: 500;
   border-radius: 8px;
 }
@@ -182,9 +183,11 @@ input[type="number"] {
 .form-control,
 .form-select {
   background-color: var(--color-secondary);
-  padding: 0.5rem;
-  border-color: #D0D5DD;
+  padding: 0.75rem 1rem;
+  border: 1.5px solid #d0d5dd;
+  border-radius: 4px;
   width: 100%;
+  color: #667085;
 }
 
 .form-control:focus,
@@ -202,8 +205,9 @@ input[type="number"] {
 }
 
 .form-control::placeholder {
-  font-size: 0.875rem;
-  color: #919191;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #667085;
 }
 
 .form-select::placeholder {
@@ -214,6 +218,7 @@ input[type="number"] {
 .form-control,
 .form-select {
   margin-top: 0.5rem;
+
 }
 
 .form-check-input {
@@ -231,7 +236,6 @@ input[type="number"] {
 }
 
 /* header */
-
 .navbar-nav {
   margin-left: 0rem !important;
 }
@@ -250,6 +254,7 @@ input[type="number"] {
 .navbar .nav-link {
   padding-bottom: 0;
   margin-bottom: 1rem;
+  font-size: 1rem!important;
   display: flex;
   justify-content: center;
   color: var(--color-secondary) !important;
@@ -264,7 +269,7 @@ input[type="number"] {
 .header-text {
   background-color: #BFA37C;
   color: var(--color-secondary);
-  padding: 0.25rem 0;
+  padding: 0.5rem 0;
   text-align: center;
   font-size: 1rem;
 }
@@ -278,17 +283,17 @@ input[type="number"] {
 .header-form {
   background-color: var(--color-secondary);
   border-radius: 12px;
-  max-width: 370px;
-  padding: 1rem;
+  min-width: 366px;
   margin: 1rem 0 1rem auto;
 }
 
-.header-form .form h6 {
-  font-weight: 800;
-  padding-bottom: 1rem;
+.header-form h6 {
+  width: 100%;
+  font-weight: 700;
   border-bottom: 1px solid #DFDFE3;
-  padding: .5rem;
+  padding: 2rem;
   text-align: center;
+  color: var(--color-primary);
 }
 
 .header-form .form .btn-outline-primary {
@@ -310,25 +315,18 @@ input[type="number"] {
   justify-content: center;
 }
 
-.about .card .card-title,
-.about .card .card-title-reserv {
-  padding: 1rem 1.15rem;
-}
-
 .about .card .card-title {
   border-radius: 50%;
   background-color: #eeecfe;
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  line-height: 2rem;
+  padding: 1rem;
 }
 
 .about .card .card-title-reserv {
   background-color: #fef6e0;
-}
-
-.about .card .card-title-divertissment,
-.about .card .card-title-secure,
-.about .card .card-title-conducteur,
-.about .card .card-title-vehicle {
-  padding: 1rem;
 }
 
 .about .card .card-title-divertissment {
@@ -353,18 +351,20 @@ input[type="number"] {
 }
 
 .about .card .card-body {
-  padding-top: 2rem;
+  padding: 1.5rem;
 }
 
 .about .card-text {
   color: #747579;
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
 }
 
 .about .card .card-subtitle {
   margin: 1rem 0;
+  font-size: 1.25rem;
+  color: #0b0a12;
 }
 
 /* start */
@@ -379,19 +379,35 @@ input[type="number"] {
 .start .start-bg-elipse1 {
   background-image: url(images/start-ellipse.svg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right 99.2%;
+  background-size: contain;
 }
 
 .start .start-bg-elipse2 {
   padding: 3.75rem 0;
   background-image: url(images/start-ellipse1.svg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right 106%;
   margin-top: 2rem;
 }
 
 .start h2 {
-  font-size: 1.5rem;
+  font-size: 2.15rem;
+
+}
+
+.start h6{
+  font-weight: 400!important;
+  margin: 1rem 0 1.5rem 0;
+  color: #b9bbbc!important;
+}
+
+.start .start-btn {
+  text-align: center;
+}
+ 
+.start .start-btn .btn {
+  margin-top: 0;
 }
 
 /* faq */
@@ -419,10 +435,13 @@ input[type="number"] {
   margin-bottom: 1rem;
   border: none;
   border-radius: 8px;
+  background-color: transparent;
 }
 
 .faq .accordion-button {
   border-radius: 8px !important;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .faq .accordion-item:first-of-type .accordion-button {
@@ -437,13 +456,21 @@ input[type="number"] {
 
 .accordion-button::after {
   background-image: url(images/icon-add.svg);
-  background-size: 1rem;
+  background-size: 10px 10px;
+  background-position: center;
 }
 
 .accordion-button:not(.collapsed)::after {
   background-image: url(images/icon-open.svg);
-  background-size: 1rem;
-  margin-bottom: 0.5rem;
+  background-size: 10px 10px;
+  background-position: center;
+}
+
+.faq .accordion-body {
+  padding: 1rem 0;
+  color: #747579!important;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 /* reservation */
@@ -538,9 +565,9 @@ input[type="number"] {
 
 .footer {
   background-color: var(--color-primary);
-  color: var(--color-secondary);
+  color: #f4f4f4;
   margin-top: 6rem;
-  padding-top: 2rem;
+  padding: 2rem 0;
 }
 
 .footer-link {
@@ -568,7 +595,18 @@ input[type="number"] {
 }
 
 .footer span {
-  font-size: 0.895rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #b9bbbc;
+}
+
+.footer .footer-link .form-control::placeholder {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.footer .copyright .container {
+  padding-bottom: 0;
 }
 
 @media (max-width:575.98px) {}
@@ -582,10 +620,6 @@ input[type="number"] {
   }
   
   .header-form {
-    background-color: var(--color-secondary);
-    border-radius: 12px;
-    max-width: 370px;
-    padding: 1rem;
     margin: 1rem 0 1rem auto;
   }
 }
@@ -620,10 +654,6 @@ input[type="number"] {
   }
 
   .header-form {
-    background-color: var(--color-secondary);
-    border-radius: 12px;
-    max-width: 370px;
-    padding: 1rem;
     margin: 2rem 0 3rem auto;
   }
 
@@ -647,7 +677,7 @@ input[type="number"] {
   }
 
   .navbar-collapse {
-    margin-left: 8.5rem;
+    margin-left: 8rem;
   }
 
   .navbar .nav-link-contact {
@@ -695,11 +725,11 @@ input[type="number"] {
   }
 
   .header-form {
-    background-color: var(--color-secondary);
-    border-radius: 12px;
-    max-width: 370px;
-    padding: 1rem;
     margin: 2rem 0 3rem auto!important;
+  }
+
+  .about{
+    margin-top: 8rem;
   }
 
 }
