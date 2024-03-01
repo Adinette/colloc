@@ -262,7 +262,7 @@ input[type="number"] {
 
 .navbar .navbar-collapse {
   position: absolute;
-  right: 50%;
+  right: 30%;
   top: 7rem;
 }
 
@@ -630,6 +630,7 @@ input[type="number"] {
   .header-form {
     margin: 1rem 0 1rem auto;
   }
+  
 }
 
 /* Medium devices (tablets, 768px, up to 992px) */
