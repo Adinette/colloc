@@ -612,8 +612,8 @@ input[type="number"] {
   font-weight: 400;
 }
 
-.footer .copyright .container {
-  padding: 1rem 0 0 0;
+.copyright .container {
+  padding-top: 1rem;
 }
 
 @media (max-width:575.98px) {}
