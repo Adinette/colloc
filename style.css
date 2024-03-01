@@ -329,6 +329,7 @@ input[type="number"] {
   height: 4rem;
   line-height: 2rem;
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 .about .card .card-title-reserv {
@@ -368,7 +369,7 @@ input[type="number"] {
 }
 
 .about .card .card-subtitle {
-  margin: 1rem 0;
+  margin: 0 0 0.75rem 0;
   font-size: 1.25rem;
   color: #0b0a12;
 }
@@ -397,13 +398,15 @@ input[type="number"] {
 }
 
 .start h2 {
-  font-size: 2.15rem;
+  font-size: 0.95rem;
+  margin-bottom: 0;
 }
 
 .start h6{
   font-weight: 400!important;
-  margin: 1rem 0 1.5rem 0;
+  margin: 0.75rem 0 1.5rem 0;
   color: #b9bbbc!important;
+  font-size: 0.65rem;
 }
 
 .start .start-btn {
@@ -734,6 +737,17 @@ input[type="number"] {
   .header-form {
     margin: 1.5rem 0 3rem auto!important;
   }
+
+  .start h2 {
+    font-size: 2.15rem;
+  }
+
+  .start h6{
+    font-weight: 400!important;
+    margin: 0.75rem 0 1.5rem 0;
+    color: #b9bbbc!important;
+    font-size: 1rem;
+  }
 }
 
 /* Large devices (desktops, 992px, up to 1200px) */
@@ -746,5 +760,13 @@ input[type="number"] {
 @media (min-width: 1400px) {
   .footer span {
     font-size: 1.15rem;
+  }
+
+  .start .start-bg-elipse1 {
+    background-position: 86%!important;
+  }
+  
+  .start .start-bg-elipse2 {
+    background-position: 96%!important;
   }
 }
