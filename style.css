@@ -183,7 +183,7 @@ input[type="number"] {
 .form-control,
 .form-select {
   background-color: var(--color-secondary);
-  padding: 0.75rem 1rem;
+  padding: 0.75rem;
   border: 1.5px solid #d0d5dd;
   border-radius: 4px;
   width: 100%;
@@ -223,6 +223,12 @@ input[type="number"] {
 
 .form-check-input {
   background-color: transparent;
+}
+
+.form-check-input:focus {
+  border-color: var(--color-primary);
+  outline: 0;
+  box-shadow: none;
 }
 
 .form-check-input:checked {
@@ -277,7 +283,7 @@ input[type="number"] {
 .header-block-custom {
   background-color: #1b2223;
   border-radius: 7rem 0 0 0;
-  padding: 7rem 1rem 1rem 3rem;
+  padding: 7rem 1rem 1rem 1rem;
 }
 
 .header-form {
@@ -481,6 +487,11 @@ input[type="number"] {
   font-weight: 400;
 }
 
+/* patner */
+.slick-prev, .slick-next {
+  display: none!important;
+}
+
 /* reservation */
 .reservation {
   margin: 6rem 0;
@@ -530,6 +541,45 @@ input[type="number"] {
   margin-bottom: 10rem;
 }
 
+/* catalogue */
+
+.catalogue .card{
+  border: none;
+  border-radius: 0;
+}
+.catalogue .card-body {
+  text-align: center;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.catalogue .card-body .card-description {
+  text-align: center;
+  padding: 0rem 2rem 2rem ;
+}
+
+.catalogue .card-body .card-content .card-text {
+  border-right: 1px solid #71717a;
+  margin-right: 0.5rem;
+  padding-right: 0.5rem;
+
+}
+
+.catalogue .card-body p{
+  font-size: 0.875rem;
+  color: #71717A;
+}
+
+.catalogue .card-body .card-content{
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+
+.catalogue h2{
+  margin-bottom: 4rem;
+}
+
 /* contact */
 .contact {
   margin: 6rem 0;
@@ -558,7 +608,7 @@ input[type="number"] {
   padding: 4rem;
 }
 
-.register .register-block .register-block-link a {
+.register-block-link a {
   color: #bfa37c !important;
   text-decoration: none;
   font-weight: 600 !important;
@@ -569,8 +619,101 @@ input[type="number"] {
   font-size: 0.875rem;
 }
 
-/* footer */
+/* .login */
+.login .auth-bg {
+  background-color: #8c8b89cc;
+  text-align: center;
+  padding: 10.5rem 0;
+}
 
+.login .auth-bg .auth-title {
+  margin: 6rem 0 0rem;
+}
+
+.login .auth-bg span{
+  color: #cfd1d1;
+  font-weight: 400;
+}
+.login .auth-bg h4{
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.login .auth-bg .slick-dots li{
+  margin: 0;
+}
+
+.login .auth-bg .slick-dots {
+bottom: -80px;
+}
+
+.login .auth-bg .slick-prev, .slick-next {
+  display: none!important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  opacity: 20%;
+  color: var(--color-secondary);
+}
+
+.login .auth-form{
+  padding: 5.5rem 0 4.5rem;
+}
+
+.login .auth-form .form-check-label{
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.login .auth-form label{
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.login .auth-form .form-required{
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #e8112d;
+}
+
+.login form{
+  margin-top: 3rem;
+}
+
+.login h2{
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.login span{
+  color: #747579;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.login .form-control{
+  margin-top: 0.75rem;
+}
+
+.login .form-check{
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0 2rem;
+}
+
+.register-block-link span{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #222222;
+}
+
+/* footer */
 .footer {
   background-color: #000;
   color: #f4f4f4;
@@ -674,6 +817,11 @@ input[type="number"] {
     position: absolute;
     right: 55%;
     top: 7rem;
+}
+
+.catalogue .card-body .card-description {
+  text-align: center;
+  padding: 0rem 0.5rem 2rem ;
 }
 
 }
